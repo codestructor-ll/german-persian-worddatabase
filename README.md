@@ -9,13 +9,13 @@ Es soll Lernende, Übersetzerinnen, Entwicklerinnen und Sprachmodell-Ersteller*i
 
 Jeder Eintrag in der JSON-Datei enthält:
 
-- *uebersetzung* — Persische Entsprechung (in persischer Schrift)
-- *wortart* — Substantiv, Verb, Adjektiv usw.
-- *aussprache* — Romanisierte Umschrift des Farsi für einfacheres Lesen
-- *beispiel_de* — Beispielsatz auf Deutsch
-- *beispiel_fa* — Beispielsatz auf Farsi
-- *synonyme* — Verwandte Wörter
-- *haeufigkeit* — Häufigkeit der Verwendung im typischen akademischen Kontext (Skala von 1–5)
+- *Uebersetzung* — Persische Entsprechung (in persischer Schrift).
+- *Wortart* — Substantiv, Verb, Adjektiv usw.
+- *Aussprache* — Romanisierte Umschrift des Farsi für einfacheres Lesen.
+- *Beispiel_de* — Beispielsatz auf Deutsch.
+- *Beispiel_fa* — Beispielsatz auf Farsi.
+- *Synonyme* — Verwandte Wörter.
+- *Haeufigkeit* — Häufigkeit der Verwendung im typischen akademischen Kontext (Skala von 1–5).
 
 ### Beispiel-Eintrag
 "universitaet": {
