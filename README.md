@@ -10,22 +10,24 @@ Es soll Lernende, Übersetzerinnen, Entwicklerinnen und Sprachmodell-Ersteller*i
 Jeder Eintrag in der JSON-Datei enthält:
 
 - *Uebersetzung* — Persische Entsprechung (in persischer Schrift).
-- *Wortart* — Substantiv, Verb, Adjektiv usw.
 - *Aussprache* — Romanisierte Umschrift des Farsi für einfacheres Lesen.
+- *Wortart* — Substantiv, Verb, Adjektiv usw.
+- *Haeufigkeit* — Häufigkeit der Verwendung im typischen akademischen Kontext (Skala von 1–5).
+- *Definition* — Substantiv, Verb, Adjektiv usw.
 - *Beispiel_de* — Beispielsatz auf Deutsch.
 - *Beispiel_fa* — Beispielsatz auf Farsi.
 - *Synonyme* — Verwandte Wörter.
-- *Haeufigkeit* — Häufigkeit der Verwendung im typischen akademischen Kontext (Skala von 1–5).
 
 ### Beispiel-Eintrag
 "universitaet": {
 "uebersetzung": "دانشگاه",
-"wortart": "Nomen",
 "aussprache": "daaneshgaah",
+"wortart": "Nomen",
+"haeufigkeit": 4
+"definition": "in mehrere Fachbereiche gegliederte [die Gesamtheit der Wissenschaften umfassende] Anstalt für wissenschaftliche Ausbildung und Forschung; Hochschule"
 "beispiel_de": "Sie studiert an der Universität.",
 "beispiel_fa": "او در دانشگاه درس می‌خواند.",
 "synonyme": ["Hochschule", "Institution"],
-"haeufigkeit": 4
 }
 
 
