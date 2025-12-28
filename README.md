@@ -1,6 +1,6 @@
 # Englisch–Farsi Wortdatenbank
 
-Dieses Projekt bietet ein quelloffenes zweisprachiges Wörterbuch des englisch–farsi akademischen Wortschatzes im JSON-Format.
+Dieses Projekt bietet ein quelloffenes zweisprachiges Wörterbuch des deutsch–farsi Wortschatzes - zunächst - im JSON-Format.
 Es soll Lernende, Übersetzerinnen, Entwicklerinnen und Sprachmodell-Ersteller*innen unterstützen, die mit Farsi Daten arbeiten.
 
 ---
@@ -20,11 +20,11 @@ Jeder Eintrag in der JSON-Datei enthält:
 ### Beispiel-Eintrag
 "universitaet": {
 "uebersetzung": "دانشگاه",
-"wortart": "noun",
+"wortart": "Nomen",
 "aussprache": "daaneshgaah",
-"beispiel_de": "She studies at the university.",
+"beispiel_de": "Sie studiert an der Universität.",
 "beispiel_fa": "او در دانشگاه درس می‌خواند.",
-"synonyme": ["college", "institution"],
+"synonyme": ["Hochschule", "Institution"],
 "haeufigkeit": 4
 }
 
@@ -32,12 +32,6 @@ Jeder Eintrag in der JSON-Datei enthält:
 ---
 
 ## 🧠 Häufigkeitsskala
-Wert	Beschreibung	Beispiele
-5	Sehr häufiges Kernwort	exam, student, research
-4	Häufig; fachübergreifender Wortschatz	university, professor
-3	Spezifisch für akademische Kontexte	thesis, conference
-2	Fachspezifisch oder technisch	algorithm, experiment
-1	Seltenes oder fortgeschrittenes akademisches Wort	epistemology, morphology
 
 | Wert | Beschreibung | Beispiele |
 |--------|--------------|-----------|
