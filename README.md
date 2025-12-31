@@ -54,10 +54,11 @@ Jeder Eintrag in der JSON-Datei enthält:
 ├── deutsch-farsi_datenbank.db # Kern-Datensatz im SQLite-Format (in entwicklung)
 ├── README.md # Projektbeschreibung und Nutzungshinweise
 
+<!--
 ---
 
 ## 🤝 Beitrag
-/*
+
 Dieses Projekt hat das Ziel, eine qualitativ hochwertige, frei verfügbare deutsch‑persische Wortdatenbank für Lernende, Lehrende und Entwickler bereitzustellen.
 Damit die Datenbank wachsen und besser werden kann, ist Mitarbeit aus der Community ausdrücklich erwünscht.
 Wie du beitragen kannst
@@ -78,4 +79,5 @@ So legst du los
 - Schau dir die vorhandene Datenstruktur im Repository an.
 - Lies die Contributing‑Hinweise (Format, JSON‑Schema, Namenskonventionen).
 - Erstelle ein Issue mit deinem Vorschlag oder schicke direkt einen Pull Request.
-*/
+
+-->
