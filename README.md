@@ -1,7 +1,7 @@
-# Deutsch–Persische Woerterkollektion
+# Deutsch–Persische Wörterdatenbank
 
-Dieses Projekt bietet ein quelloffenes zweisprachiges Wörterbuch des deutsch–farsi Wortschatzes - zunächst - im JSON-Format.
-Es soll Lernende, Übersetzerinnen, Entwicklerinnen und Sprachmodell-Ersteller*innen unterstützen, die mit Farsi Daten arbeiten.
+Dieses Projekt bietet eine quelloffene zweisprachige Wörterdatenbank des deutsch–persischen Wortschatzes - zunächst - im JSON-Format.
+Es soll Lernende, Übersetzerinnen, Entwicklerinnen und Sprachmodell-Ersteller*innen unterstützen, die mit Deutsch-Persischen Daten arbeiten.
 
 ---
 
@@ -13,9 +13,10 @@ Jeder Eintrag in der JSON-Datei enthält:
 - *Lautschrift* — Romanisierte Umschrift des Farsi für einfacheres Lesen.
 - *Wortart* — Substantiv, Verb, Adjektiv usw.
 - *Haeufigkeit* — Häufigkeit der Verwendung im typischen akademischen Kontext (Skala von 1–5).
-- *Definition* — Substantiv, Verb, Adjektiv usw.
-- *Beispiel_de* — Beispielsatz auf Deutsch.
-- *Beispiel_fa* — Beispielsatz auf Farsi.
+- *definitionDeutsch* — Begriffsdefinition auf Deutsch.
+- *definitionPersisch* — Begriffsdefinition auf Persisch.
+- *BeispielDeutsch* — Beispielsatz auf Deutsch.
+- *BeispielPersisch* — Beispielsatz auf Persisch.
 - *Synonyme* — Verwandte Wörter.
 
 ### Beispiel-Eintrag
@@ -23,10 +24,11 @@ Jeder Eintrag in der JSON-Datei enthält:
 "uebersetzung": "دانشگاه",
 "lautschrift": "daaneshgaah",
 "wortart": "Nomen",
-"haeufigkeit": 4
-"definition": "in mehrere Fachbereiche gegliederte [die Gesamtheit der Wissenschaften umfassende] Anstalt für wissenschaftliche Ausbildung und Forschung; Hochschule"
-"beispiel_de": "Sie studiert an der Universität.",
-"beispiel_fa": "او در دانشگاه درس می‌خواند.",
+"haeufigkeit": 4,
+"definitionDeutsch": "In mehrere Fachbereiche gegliederte [die Gesamtheit der Wissenschaften umfassende] Anstalt für wissenschaftliche Ausbildung und Forschung; Hochschule",
+"definitionPersisch": "«دانشگاه» مؤسسه آموزش عالی است که در آن آموزش پیشرفته و پژوهش انجام می‌شود و مدارک دانشگاهی اعطا می‌گردد.",
+"beispielDeutsch": "Sie studiert an der Universität.",
+"beispielPersisch": "او در دانشگاه درس می‌خواند.",
 "synonyme": ["Hochschule", "Institution"],
 }
 
@@ -49,5 +51,5 @@ Jeder Eintrag in der JSON-Datei enthält:
 
 │
 ├── akademisches-batch.json # Lern-Datensatz (zweisprachig)
-├── deutsch-farsi_datenbank.db # Kern-Datensatz im SQLite-Format (zweisprachig)
+├── deutsch-farsi_datenbank.db # Kern-Datensatz im SQLite-Format (in entwicklung)
 ├── README.md # Projektbeschreibung und Nutzungshinweise
