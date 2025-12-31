@@ -1,4 +1,4 @@
-# Deutsch–Farsi Wortdatenbank
+# Deutsch–Persische Woerterkollektion
 
 Dieses Projekt bietet ein quelloffenes zweisprachiges Wörterbuch des deutsch–farsi Wortschatzes - zunächst - im JSON-Format.
 Es soll Lernende, Übersetzerinnen, Entwicklerinnen und Sprachmodell-Ersteller*innen unterstützen, die mit Farsi Daten arbeiten.
