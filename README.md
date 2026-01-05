@@ -9,7 +9,8 @@ Es soll Lernende, Übersetzerinnen, Entwicklerinnen und Sprachmodell-Ersteller*i
 
 Jeder Eintrag in der JSON-Datei enthält:
 
-- *Wort* — Deutsch-Persische Entsprechung.
+- *Wort* — Deutsches Wort.
+- *Uebersetzung* — Persische Entsprechung.
 - *Identifikationsnummer* - Eindeutige ID.
 - *Lautschrift* — Romanisierte Umschrift des Farsi für einfacheres Lesen.
 - *Wortart* — Substantiv, Verb, Adjektiv usw.
@@ -23,6 +24,7 @@ Jeder Eintrag in der JSON-Datei enthält:
 ### Beispiel-Eintrag
 "universitaet": {  <br />
 "uebersetzung": "دانشگاه",  <br />
+"id":"2", </br>
 "lautschrift": "daaneshgaah", <br />
 "wortart": "Nomen", <br />
 "haeufigkeit": 4, <br />
