@@ -30,7 +30,7 @@ Jeder Eintrag in der JSON-Datei enthält:
 "definitionPersisch": "«دانشگاه» مؤسسه آموزش عالی است که در آن آموزش پیشرفته و پژوهش انجام می‌شود و مدارک دانشگاهی اعطا می‌گردد.", <br />
 "beispielDeutsch": "Sie studiert an der Universität.", <br />
 "beispielPersisch": "او در دانشگاه درس می‌خواند.", <br />
-"synonyme": ["Hochschule", "Institution"],__
+"synonyme": ["Hochschule", "Institution"], <br />
 }
 
 
